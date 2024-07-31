@@ -7,8 +7,8 @@ jobs:
     steps:
       - name: check code
         uses: actions/checkout@v2
-      - name : run super lint
-        uses : github/super-lint@v3
+      - name : run super linter
+        uses : github/super-linter@v3
         env:
           DEFAULT_BRANCH: main
     
